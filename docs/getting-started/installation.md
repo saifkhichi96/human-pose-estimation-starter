@@ -1,7 +1,11 @@
 ---
 title: Installation Guide
 layout: default
+parent: Getting Started
+nav_order: 1
 ---
+
+# Installation Guide
 
 ## Prerequisites
 - PyTorch 0.4.1 or higher
@@ -21,7 +25,7 @@ pip install -r requirements.txt
    ```
    ln -s PATH_TO_MPII_IMAGES_DIR data/mpii/images
    ```
-   For training/testing on COCO, please refer to [COCO Readme](data/coco/README.md).
+   For training/testing on COCO, please refer to [COCO Readme](../datasets/coco.md).
 4. Download annotation file:
     * (MPII) Download [mpii_annotations.json](https://drive.google.com/open?id=1mQrH_yVHeB93rzCfyq5kC9ZYTwZeMsMm) and save it to `data/mpii`
     * (COCO) Download [coco_annotations_2014.json](https://drive.google.com/open?id=1jrxis4ujrLlkwoD2GOdv3PGzygpQ04k7) or/and [coco_annotations_2017.json](https://drive.google.com/open?id=1YuzpScAfzemwZqUuZBrbBZdoplXEqUse) and save it to `data/coco`

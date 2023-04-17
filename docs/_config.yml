@@ -1,0 +1,27 @@
+remote_theme: just-the-docs/just-the-docs
+url: https://saifkhichi96.github.io
+baseurl: ''
+
+logo: "https://saifkhichi96.github.io/assets/images/logo.png"
+favicon_ico: "https://saifkhichi96.github.io/favicon.ico"
+
+aux_links:
+  "View on GitHub":
+    - https://github.com/saifkhichi96/human-pose-estimation-starter
+aux_links_new_tab: true
+
+# Search settings
+search_enabled: true
+search.heading_level: 2
+search.previews: 3
+search.preview_words_before: 5
+search.preview_words_after: 10
+search.tokenizer_separator: /[\s/]+/
+
+# Exclude these files from your production _site
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
