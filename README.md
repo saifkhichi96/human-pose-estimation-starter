@@ -28,7 +28,7 @@ These instructions will help you set up the project on your local machine for de
 - Logger
 - Training/testing results visualization
 
-See [Getting Started](docs/GETTING_STARTED.md) for notes on how to use the project for training and evaluation.
+See [Getting Started](docs/GETTING_STARTED.md) for notes on how to use the project for training and evaluation. A [curated list of optimization techniques](docs/OPTIMIZATION.md) for human pose estimation is also provided.
 
 ## Prerequisites
 - PyTorch 0.4.1 or higher
