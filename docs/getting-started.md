@@ -1,4 +1,7 @@
-# Getting Started
+---
+title: Getting Started
+layout: default
+---
 
 ## Training
 

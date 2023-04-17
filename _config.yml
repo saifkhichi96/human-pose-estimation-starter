@@ -1,6 +1,14 @@
-remote_theme: saifkhichi96/simple-material
-url: 'https://saifkhichi96.github.io'
+theme: just-the-docs
+url: https://saifkhichi96.github.io
 baseurl: ''
+
+logo: "/assets/images/logo.png"
+favicon_ico: "/favicon.ico"
+
+aux_links:
+  "HPE Starter us on GitHub":
+    - https://github.com/saifkhichi96/human-pose-estimation-starter
+aux_links_new_tab: true
 
 permalink: /:title/
 
@@ -14,6 +22,8 @@ defaults:
 
 # Exclude these files from your production _site
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - requirements.txt

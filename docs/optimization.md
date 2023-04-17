@@ -1,4 +1,7 @@
-# Neural Network Optimization
+---
+title: Optimization Methods
+layout: default
+---
 
 This document describes various optimization methods for neural networks and provides a curated list of resources o help you get started with each technique.
 

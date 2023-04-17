@@ -1,4 +1,7 @@
-# Human Pose Estimation 101
+---
+title: Basics of Human Pose Estimation
+layout: default
+---
 
 If you want a slightly more rigorous tutorial and understand the basics of Human Pose Estimation and how the field has evolved, check out these articles I published on [2D Pose Estimation](https://blog.nanonets.com/human-pose-estimation-2d-guide/?utm_source=github&utm_medium=social&utm_campaign=pose&utm_content=cbsudux) and [3D Pose Estimation](https://blog.nanonets.com/human-pose-estimation-3d-guide/)
 
@@ -44,7 +47,7 @@ If you want a slightly more rigorous tutorial and understand the basics of Human
   - No of lower arms = 20
   - No of lower legs = No of upper legs = 20
   - If upper arm is detected correct for 17  out of the 20 upper arms i.e 17 ( 10 right arms and 7 left) → PCP = 17/20 = 85%
-- Higher the better 
+- Higher the better
 
 ### Percentage of Correct Key-points - PCK
 - Detected joint is considered correct if the distance between the predicted and the true joint is within a certain threshold (threshold varies)
@@ -65,7 +68,7 @@ If you want a slightly more rigorous tutorial and understand the basics of Human
 ### Mean Per Joint Position Error - MPJPE
 - Per joint position error = Euclidean distance between ground truth and prediction for a joint
 - Mean per joint position error = Mean of per joint position error for all k joints (Typically, k = 16)
-- Calculated after aligning the root joints (typically the pelvis) of the estimated and groundtruth 3D pose. 
+- Calculated after aligning the root joints (typically the pelvis) of the estimated and groundtruth 3D pose.
 - __PA MPJPE__
   - Procrustes analysis MPJPE.
   - MPJPE calculated after the estimated 3D pose is aligned to the groundtruth by the [Procrustes method](https://www.coursera.org/lecture/robotics-perception/pose-from-3d-point-correspondences-the-procrustes-problem-X22IH)

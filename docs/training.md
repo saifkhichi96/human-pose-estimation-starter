@@ -1,4 +1,7 @@
-# Training Recipe
+---
+title: Training and Evaluation
+layout: default
+---
 
 ## Get datasets
 
